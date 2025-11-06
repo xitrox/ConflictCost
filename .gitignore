@@ -7,6 +7,7 @@
 ehthumbs.db
 Thumbs.db
 *~
+*.pem
 
 # IDE and Editor Files
 .vscode/
@@ -19,6 +20,22 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+dist/
+
 # Logs
 *.log
 npm-debug.log*
@@ -30,9 +47,16 @@ tmp/
 temp/
 *.tmp
 
-# Build outputs (if we add build steps later)
-dist/
-build/
+# Environment files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
 # Backup files
 *.bak
