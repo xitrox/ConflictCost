@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "Konfliktkosten-Rechner"
+  },
+  "header": {
+    "title": "Konfliktkosten-Rechner",
+    "subtitle": "Berechnen Sie die tatsächlichen Kosten von Konflikten am Arbeitsplatz"
+  },
+  "section1": {
+    "title": "1. Team & Konflikt-Parameter",
+    "teamMembers": "Betroffene Teammitglieder",
+    "teamMembersHint": "Anzahl der beteiligten Personen",
+    "avgHourlyRate": "Durchschnittlicher Stundensatz (€)",
+    "avgHourlyRateHint": "Durchschnittliches Gehalt pro Stunde",
+    "conflictDuration": "Konfliktdauer (Tage)",
+    "conflictDurationHint": "Wie lange dauerte der Konflikt",
+    "efficiencyLoss": "Produktivitätsverlust (%)",
+    "efficiencyLossHint": "Geschätzte Effizienzminderung",
+    "resolutionHours": "Lösungszeit (Stunden)",
+    "resolutionHoursHint": "Investierte Zeit für die Lösung"
+  },
+  "section2": {
+    "title": "2. Externe Unterstützung",
+    "consultantHours": "Berater/Mediator Stunden",
+    "consultantRate": "Berater Stundensatz (€)",
+    "legalHours": "Rechtsbeistand Stunden",
+    "legalRate": "Rechtsberater Stundensatz (€)"
+  },
+  "section3": {
+    "title": "3. Langfristige Auswirkungen",
+    "employeesLeft": "Ausgeschiedene Mitarbeiter",
+    "employeesLeftHint": "Aufgrund dieses Konflikts",
+    "replacementCost": "Ersatzkosten pro Person (€)",
+    "replacementCostHint": "Rekrutierung & Einarbeitung",
+    "reputationDamage": "Geschätzter Reputationsschaden (€)",
+    "reputationDamageHint": "Verlust von Geschäft, Imageschaden"
+  },
+  "section4": {
+    "title": "4. Kostenübersicht",
+    "productivityCosts": "Produktivitätsverlust-Kosten",
+    "resolutionCosts": "Lösungszeit-Kosten",
+    "consultantCosts": "Beraterkosten",
+    "legalCosts": "Rechtskosten",
+    "turnoverCosts": "Mitarbeiterfluktuation-Kosten",
+    "reputationCosts": "Reputationsschaden",
+    "totalCosts": "Gesamtgeschätzte Kosten"
+  },
+  "actions": {
+    "reset": "Zurücksetzen",
+    "export": "Als JSON exportieren"
+  },
+  "footer": {
+    "references": "Quellen und Referenzen"
+  },
+  "messages": {
+    "confirmReset": "Möchten Sie das Formular wirklich zurücksetzen? Alle Daten gehen verloren."
+  },
+  "currency": "€"
+}

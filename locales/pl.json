@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "Kalkulator Kosztów Konfliktów"
+  },
+  "header": {
+    "title": "Kalkulator Kosztów Konfliktów",
+    "subtitle": "Oblicz rzeczywisty koszt konfliktów w miejscu pracy"
+  },
+  "section1": {
+    "title": "1. Parametry Zespołu i Konfliktu",
+    "teamMembers": "Dotknięte Członkowie Zespołu",
+    "teamMembersHint": "Liczba zaangażowanych osób",
+    "avgHourlyRate": "Średnia Stawka Godzinowa (€)",
+    "avgHourlyRateHint": "Średnie wynagrodzenie na godzinę",
+    "conflictDuration": "Czas Trwania Konfliktu (Dni)",
+    "conflictDurationHint": "Jak długo trwał konflikt",
+    "efficiencyLoss": "Utrata Produktywności (%)",
+    "efficiencyLossHint": "Postrzegana redukcja wydajności",
+    "resolutionHours": "Czas Rozwiązania (Godziny)",
+    "resolutionHoursHint": "Czas poświęcony na rozwiązanie"
+  },
+  "section2": {
+    "title": "2. Wsparcie Zewnętrzne",
+    "consultantHours": "Godziny Konsultanta/Mediatora",
+    "consultantRate": "Stawka Godzinowa Konsultanta (€)",
+    "legalHours": "Godziny Wsparcia Prawnego",
+    "legalRate": "Stawka Godzinowa Prawnika (€)"
+  },
+  "section3": {
+    "title": "3. Długoterminowy Wpływ",
+    "employeesLeft": "Pracownicy, Którzy Odeszli",
+    "employeesLeftHint": "Z powodu tego konfliktu",
+    "replacementCost": "Koszt Zastąpienia na Osobę (€)",
+    "replacementCostHint": "Rekrutacja i wdrożenie",
+    "reputationDamage": "Szacunkowa Szkoda Reputacji (€)",
+    "reputationDamageHint": "Strata biznesu, szkoda wizerunku"
+  },
+  "section4": {
+    "title": "4. Podsumowanie Kosztów",
+    "productivityCosts": "Koszty Utraty Produktywności",
+    "resolutionCosts": "Koszty Czasu Rozwiązania",
+    "consultantCosts": "Koszty Konsultanta",
+    "legalCosts": "Koszty Prawne",
+    "turnoverCosts": "Koszty Rotacji Pracowników",
+    "reputationCosts": "Szkoda Reputacji",
+    "totalCosts": "Całkowity Szacunkowy Koszt"
+  },
+  "actions": {
+    "reset": "Zresetuj",
+    "export": "Eksportuj jako JSON"
+  },
+  "footer": {
+    "references": "Źródła i Referencje"
+  },
+  "messages": {
+    "confirmReset": "Czy na pewno chcesz zresetować formularz? Wszystkie dane zostaną utracone."
+  },
+  "currency": "€"
+}

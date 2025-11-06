@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "Calculadora de Custos de Conflitos"
+  },
+  "header": {
+    "title": "Calculadora de Custos de Conflitos",
+    "subtitle": "Calcule o custo real dos conflitos no local de trabalho"
+  },
+  "section1": {
+    "title": "1. Parâmetros da Equipe e Conflito",
+    "teamMembers": "Membros da Equipe Afetados",
+    "teamMembersHint": "Número de pessoas envolvidas",
+    "avgHourlyRate": "Taxa Horária Média (€)",
+    "avgHourlyRateHint": "Salário médio por hora",
+    "conflictDuration": "Duração do Conflito (Dias)",
+    "conflictDurationHint": "Quanto tempo durou o conflito",
+    "efficiencyLoss": "Perda de Produtividade (%)",
+    "efficiencyLossHint": "Redução de eficiência percebida",
+    "resolutionHours": "Tempo de Resolução (Horas)",
+    "resolutionHoursHint": "Tempo investido na resolução"
+  },
+  "section2": {
+    "title": "2. Apoio Externo",
+    "consultantHours": "Horas de Consultor/Mediador",
+    "consultantRate": "Taxa Horária do Consultor (€)",
+    "legalHours": "Horas de Apoio Legal",
+    "legalRate": "Taxa Horária Legal (€)"
+  },
+  "section3": {
+    "title": "3. Impacto a Longo Prazo",
+    "employeesLeft": "Funcionários que Saíram",
+    "employeesLeftHint": "Devido a este conflito",
+    "replacementCost": "Custo de Substituição por Pessoa (€)",
+    "replacementCostHint": "Recrutamento e integração",
+    "reputationDamage": "Dano à Reputação Estimado (€)",
+    "reputationDamageHint": "Perda de negócios, dano à imagem"
+  },
+  "section4": {
+    "title": "4. Resumo de Custos",
+    "productivityCosts": "Custos de Perda de Produtividade",
+    "resolutionCosts": "Custos de Tempo de Resolução",
+    "consultantCosts": "Custos de Consultor",
+    "legalCosts": "Custos Legais",
+    "turnoverCosts": "Custos de Rotatividade de Funcionários",
+    "reputationCosts": "Dano à Reputação",
+    "totalCosts": "Custos Estimados Totais"
+  },
+  "actions": {
+    "reset": "Redefinir",
+    "export": "Exportar como JSON"
+  },
+  "footer": {
+    "references": "Fontes e Referências"
+  },
+  "messages": {
+    "confirmReset": "Tem certeza de que deseja redefinir o formulário? Todos os dados serão perdidos."
+  },
+  "currency": "€"
+}

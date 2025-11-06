@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "Conflict Cost Calculator"
+  },
+  "header": {
+    "title": "Conflict Cost Calculator",
+    "subtitle": "Calculate the real cost of workplace conflicts"
+  },
+  "section1": {
+    "title": "1. Team & Conflict Parameters",
+    "teamMembers": "Affected Team Members",
+    "teamMembersHint": "Number of people involved",
+    "avgHourlyRate": "Average Hourly Rate (€)",
+    "avgHourlyRateHint": "Average salary per hour",
+    "conflictDuration": "Conflict Duration (Days)",
+    "conflictDurationHint": "How long did the conflict last",
+    "efficiencyLoss": "Productivity Loss (%)",
+    "efficiencyLossHint": "Perceived efficiency reduction",
+    "resolutionHours": "Resolution Time (Hours)",
+    "resolutionHoursHint": "Time invested in resolving"
+  },
+  "section2": {
+    "title": "2. External Support",
+    "consultantHours": "Consultant/Mediator Hours",
+    "consultantRate": "Consultant Hourly Rate (€)",
+    "legalHours": "Legal Support Hours",
+    "legalRate": "Legal Hourly Rate (€)"
+  },
+  "section3": {
+    "title": "3. Long-term Impact",
+    "employeesLeft": "Employees Who Left",
+    "employeesLeftHint": "Due to this conflict",
+    "replacementCost": "Replacement Cost per Person (€)",
+    "replacementCostHint": "Recruiting & onboarding",
+    "reputationDamage": "Estimated Reputation Damage (€)",
+    "reputationDamageHint": "Lost business, image damage"
+  },
+  "section4": {
+    "title": "4. Cost Summary",
+    "productivityCosts": "Productivity Loss Costs",
+    "resolutionCosts": "Resolution Time Costs",
+    "consultantCosts": "Consultant Costs",
+    "legalCosts": "Legal Costs",
+    "turnoverCosts": "Employee Turnover Costs",
+    "reputationCosts": "Reputation Damage",
+    "totalCosts": "Total Estimated Costs"
+  },
+  "actions": {
+    "reset": "Reset",
+    "export": "Export as JSON"
+  },
+  "footer": {
+    "references": "Sources and References"
+  },
+  "messages": {
+    "confirmReset": "Are you sure you want to reset the form? All data will be lost."
+  },
+  "currency": "€"
+}

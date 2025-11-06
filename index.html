@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page.title">Conflict Cost Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <!-- Language Switcher -->
+        <div class="d-flex justify-content-end mb-3">
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span id="currentLanguage">🇬🇧 English</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="en">🇬🇧 English</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="de">🇩🇪 Deutsch</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="es">🇪🇸 Español</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="pt">🇵🇹 Português</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="it">🇮🇹 Italiano</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="pl">🇵🇱 Polski</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="bg">🇧🇬 Български</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="hi">🇮🇳 हिन्दी</a></li>
+                    <li><a class="dropdown-item lang-selector" href="#" data-lang="kn">🇮🇳 ಕನ್ನಡ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <header class="mb-5">
+            <h1 class="display-4" data-i18n="header.title">Conflict Cost Analysis</h1>
+            <p class="lead" data-i18n="header.subtitle">Structured collection and assessment of conflict costs in organizations</p>
+        </header>
+
+        <form id="conflictForm">
+            <!-- Team & Conflict Parameters -->
+            <section class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="h4 mb-0" data-i18n="section1.title">1. Team & Conflict Parameters</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="teamMembers" class="form-label" data-i18n="section1.teamMembers">Affected Team Members</label>
+                            <input type="number" class="form-control" id="teamMembers" placeholder="0" min="0" step="1" value="0">
+                            <small class="form-text text-muted" data-i18n="section1.teamMembersHint">Number of people involved</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="avgHourlyRate" class="form-label" data-i18n="section1.avgHourlyRate">Average Hourly Rate (€)</label>
+                            <input type="number" class="form-control" id="avgHourlyRate" placeholder="0.00" min="0" step="0.01" value="0">
+                            <small class="form-text text-muted" data-i18n="section1.avgHourlyRateHint">Average salary per hour</small>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="conflictDuration" class="form-label" data-i18n="section1.conflictDuration">Conflict Duration (Days)</label>
+                            <input type="number" class="form-control" id="conflictDuration" placeholder="0" min="0" step="1" value="0">
+                            <small class="form-text text-muted" data-i18n="section1.conflictDurationHint">How long did the conflict last</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="efficiencyLoss" class="form-label" data-i18n="section1.efficiencyLoss">Productivity Loss (%)</label>
+                            <input type="number" class="form-control" id="efficiencyLoss" placeholder="0" min="0" max="100" step="1" value="0">
+                            <small class="form-text text-muted" data-i18n="section1.efficiencyLossHint">Perceived efficiency reduction</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="resolutionHours" class="form-label" data-i18n="section1.resolutionHours">Resolution Time (Hours)</label>
+                            <input type="number" class="form-control" id="resolutionHours" placeholder="0" min="0" step="0.5" value="0">
+                            <small class="form-text text-muted" data-i18n="section1.resolutionHoursHint">Time invested in resolving</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- External Support Costs -->
+            <section class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h2 class="h4 mb-0" data-i18n="section2.title">2. External Support</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="consultantHours" class="form-label" data-i18n="section2.consultantHours">Consultant/Mediator Hours</label>
+                            <input type="number" class="form-control" id="consultantHours" placeholder="0" min="0" step="0.5" value="0">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="consultantRate" class="form-label" data-i18n="section2.consultantRate">Consultant Hourly Rate (€)</label>
+                            <input type="number" class="form-control" id="consultantRate" placeholder="0.00" min="0" step="0.01" value="0">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="legalHours" class="form-label" data-i18n="section2.legalHours">Legal Support Hours</label>
+                            <input type="number" class="form-control" id="legalHours" placeholder="0" min="0" step="0.5" value="0">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="legalRate" class="form-label" data-i18n="section2.legalRate">Legal Hourly Rate (€)</label>
+                            <input type="number" class="form-control" id="legalRate" placeholder="0.00" min="0" step="0.01" value="0">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Long-term Impact -->
+            <section class="card mb-4">
+                <div class="card-header bg-warning">
+                    <h2 class="h4 mb-0" data-i18n="section3.title">3. Long-term Impact</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="employeesLeft" class="form-label" data-i18n="section3.employeesLeft">Employees Who Left</label>
+                            <input type="number" class="form-control" id="employeesLeft" placeholder="0" min="0" step="1" value="0">
+                            <small class="form-text text-muted" data-i18n="section3.employeesLeftHint">Due to this conflict</small>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="replacementCost" class="form-label" data-i18n="section3.replacementCost">Replacement Cost per Person (€)</label>
+                            <input type="number" class="form-control" id="replacementCost" placeholder="0.00" min="0" step="0.01" value="0">
+                            <small class="form-text text-muted" data-i18n="section3.replacementCostHint">Recruiting & onboarding</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="reputationDamage" class="form-label" data-i18n="section3.reputationDamage">Estimated Reputation Damage (€)</label>
+                            <input type="number" class="form-control" id="reputationDamage" placeholder="0.00" min="0" step="0.01" value="0">
+                            <small class="form-text text-muted" data-i18n="section3.reputationDamageHint">Lost business, image damage</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cost Summary -->
+            <section class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h2 class="h4 mb-0" data-i18n="section4.title">4. Cost Summary</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td data-i18n="section4.productivityCosts">Productivity Loss Costs</td>
+                                <td class="text-end"><span id="productivityCosts">0.00</span> <span data-i18n="currency">€</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="section4.resolutionCosts">Resolution Time Costs</td>
+                                <td class="text-end"><span id="resolutionCosts">0.00</span> <span data-i18n="currency">€</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="section4.consultantCosts">Consultant Costs</td>
+                                <td class="text-end"><span id="consultantCosts">0.00</span> <span data-i18n="currency">€</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="section4.legalCosts">Legal Costs</td>
+                                <td class="text-end"><span id="legalCosts">0.00</span> <span data-i18n="currency">€</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="section4.turnoverCosts">Employee Turnover Costs</td>
+                                <td class="text-end"><span id="turnoverCosts">0.00</span> <span data-i18n="currency">€</span></td>
+                            </tr>
+                            <tr>
+                                <td data-i18n="section4.reputationCosts">Reputation Damage</td>
+                                <td class="text-end"><span id="reputationCosts">0.00</span> <span data-i18n="currency">€</span></td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td><strong data-i18n="section4.totalCosts">Total Estimated Costs</strong></td>
+                                <td class="text-end"><strong><span id="totalCosts">0.00</span> <span data-i18n="currency">€</span></strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Actions -->
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-4">
+                <button type="button" class="btn btn-secondary" id="resetBtn" data-i18n="actions.reset">Reset</button>
+                <button type="button" class="btn btn-primary" id="exportBtn" data-i18n="actions.export">Export as JSON</button>
+            </div>
+        </form>
+
+        <!-- Footer -->
+        <footer class="mt-5 pt-4 border-top">
+            <h5 data-i18n="footer.references">Sources and References</h5>
+            <ul class="small text-muted">
+                <li>Glasl, F. (2013). <em>Konfliktmanagement: Ein Handbuch für Führung, Beratung und Mediation.</em></li>
+                <li>Hocker, J. L., & Wilmot, W. W. (2017). <em>Interpersonal Conflict.</em></li>
+                <li>Rüttinger, B., & Sauer, T. (2014). <em>Kosten von Konflikten in Organisationen.</em></li>
+                <li>ISO 31000:2018 – <em>Risikomanagement – Leitlinien.</em></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

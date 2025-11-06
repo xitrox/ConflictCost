@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "Calcolatore dei Costi dei Conflitti"
+  },
+  "header": {
+    "title": "Calcolatore dei Costi dei Conflitti",
+    "subtitle": "Calcola il costo reale dei conflitti sul posto di lavoro"
+  },
+  "section1": {
+    "title": "1. Parametri del Team e Conflitto",
+    "teamMembers": "Membri del Team Interessati",
+    "teamMembersHint": "Numero di persone coinvolte",
+    "avgHourlyRate": "Tariffa Oraria Media (€)",
+    "avgHourlyRateHint": "Salario medio per ora",
+    "conflictDuration": "Durata del Conflitto (Giorni)",
+    "conflictDurationHint": "Quanto a lungo è durato il conflitto",
+    "efficiencyLoss": "Perdita di Produttività (%)",
+    "efficiencyLossHint": "Riduzione di efficienza percepita",
+    "resolutionHours": "Tempo di Risoluzione (Ore)",
+    "resolutionHoursHint": "Tempo investito nella risoluzione"
+  },
+  "section2": {
+    "title": "2. Supporto Esterno",
+    "consultantHours": "Ore di Consulente/Mediatore",
+    "consultantRate": "Tariffa Oraria Consulente (€)",
+    "legalHours": "Ore di Supporto Legale",
+    "legalRate": "Tariffa Oraria Legale (€)"
+  },
+  "section3": {
+    "title": "3. Impatto a Lungo Termine",
+    "employeesLeft": "Dipendenti che se ne sono Andati",
+    "employeesLeftHint": "A causa di questo conflitto",
+    "replacementCost": "Costo di Sostituzione per Persona (€)",
+    "replacementCostHint": "Reclutamento e onboarding",
+    "reputationDamage": "Danno Stimato alla Reputazione (€)",
+    "reputationDamageHint": "Perdita di affari, danno all'immagine"
+  },
+  "section4": {
+    "title": "4. Riepilogo dei Costi",
+    "productivityCosts": "Costi di Perdita di Produttività",
+    "resolutionCosts": "Costi di Tempo di Risoluzione",
+    "consultantCosts": "Costi di Consulenza",
+    "legalCosts": "Costi Legali",
+    "turnoverCosts": "Costi di Turnover dei Dipendenti",
+    "reputationCosts": "Danno alla Reputazione",
+    "totalCosts": "Costi Totali Stimati"
+  },
+  "actions": {
+    "reset": "Ripristina",
+    "export": "Esporta come JSON"
+  },
+  "footer": {
+    "references": "Fonti e Riferimenti"
+  },
+  "messages": {
+    "confirmReset": "Sei sicuro di voler ripristinare il modulo? Tutti i dati andranno persi."
+  },
+  "currency": "€"
+}

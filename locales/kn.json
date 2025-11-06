@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "ಸಂಘರ್ಷ ವೆಚ್ಚ ಕ್ಯಾಲ್ಕುಲೇಟರ"
+  },
+  "header": {
+    "title": "ಸಂಘರ್ಷ ವೆಚ್ಚ ಕ್ಯಾಲ್ಕುಲೇಟರ",
+    "subtitle": "ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ ಸಂಘರ್ಷದ ನೈಜ ವೆಚ್ಚವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡಿ"
+  },
+  "section1": {
+    "title": "1. ತಂಡ ಮತ್ತು ಸಂಘರ್ಷ ಪ್ರವರ್ತನ",
+    "teamMembers": "ಪ್ರಭಾವಿತ ತಂಡ ಸದಸ್ಯರು",
+    "teamMembersHint": "ಒಳಗೊಂಡಿರುವ ಜನರ ಸಂಖ್ಯೆ",
+    "avgHourlyRate": "ಸರಾಸರಿ ಗಂಟೆಯ ದರ (€)",
+    "avgHourlyRateHint": "ಪ್ರತಿ ಗಂಟೆಗೆ ಸರಾಸರಿ ವೇತನ",
+    "conflictDuration": "ಸಂಘರ್ಷದ ಸವಾಲು (ದಿನಗಳು)",
+    "conflictDurationHint": "ಸಂಘರ್ಷ ಎಷ್ಟು ಕಾಲ ನಡೆದಿತ್ತು",
+    "efficiencyLoss": "ಉತ್ಪಾದಕತೆ ನಷ್ಟ (%)",
+    "efficiencyLossHint": "ಅರಿತ ದಕ್ಷತೆ ನಿಲುವು",
+    "resolutionHours": "ಪರಿಹಾರ ಸಮಯ (ಗಂಟೆಗಳು)",
+    "resolutionHoursHint": "ಪರಿಹಾರದಲ್ಲಿ ವಿನಿಯೋಗ ಮಾಡಿದ ಸಮಯ"
+  },
+  "section2": {
+    "title": "2. ಬಾಹ್ಯ ಬೆಂಬಲ",
+    "consultantHours": "ಸಲಹೆಗಾರ/ಮಧ್ಯವರ್ತಿ ಗಂಟೆಗಳು",
+    "consultantRate": "ಸಲಹೆಗಾರ ಗಂಟೆಯ ದರ (€)",
+    "legalHours": "ಕಾನೂನು ಸಹಾಯ ಗಂಟೆಗಳು",
+    "legalRate": "ಕಾನೂನು ಗಂಟೆಯ ದರ (€)"
+  },
+  "section3": {
+    "title": "3. ದೀರ್ಘಾವಧಿಯ ಪ್ರಭಾವ",
+    "employeesLeft": "ಹೊರಟುಹೋದ ಉದ್ಯೋಗಿಗಳು",
+    "employeesLeftHint": "ಈ ಸಂಘರ್ಷದ ಕಾರಣದಿಂದ",
+    "replacementCost": "ವ್ಯಕ್ತಿಗೆ ಪ್ರತಿಸ್ಥಾಪನ ವೆಚ್ಚ (€)",
+    "replacementCostHint": "ನೇಮಕಾತಿ ಮತ್ತು ತರಬೇತಿ",
+    "reputationDamage": "ಅಂದಾಜು ಖ್ಯಾತಿ ಹಾನಿ (€)",
+    "reputationDamageHint": "ವ್ಯವಸಾಯ ನಷ್ಟ, ಚಿತ್ರ ಹಾನಿ"
+  },
+  "section4": {
+    "title": "4. ವೆಚ್ಚ ಸಾರಾಂಶ",
+    "productivityCosts": "ಉತ್ಪಾದಕತೆ ನಷ್ಟ ವೆಚ್ಚಗಳು",
+    "resolutionCosts": "ಪರಿಹಾರ ಸಮಯ ವೆಚ್ಚಗಳು",
+    "consultantCosts": "ಸಲಹೆಗಾರ ವೆಚ್ಚಗಳು",
+    "legalCosts": "ಕಾನೂನು ವೆಚ್ಚಗಳು",
+    "turnoverCosts": "ಉದ್ಯೋಗಿ ಬದಲಾವಣೆ ವೆಚ್ಚಗಳು",
+    "reputationCosts": "ಖ್ಯಾತಿ ಹಾನಿ",
+    "totalCosts": "ಒಟ್ಟು ಅಂದಾಜು ವೆಚ್ಚಗಳು"
+  },
+  "actions": {
+    "reset": "ಮರುಹೊಂದಿಸಿ",
+    "export": "JSON ಆಗಿ ರಫ್ತು ಮಾಡಿ"
+  },
+  "footer": {
+    "references": "ಮೂಲಗಳು ಮತ್ತು ಉಲ್ಲೇಖಗಳು"
+  },
+  "messages": {
+    "confirmReset": "ನೀವು ನಿಜವಾಗಿಯೂ ಫಾರ್ಮ್ ಅನ್ನು ಮರುಹೊಂದಿಸಲು ಬಯಸುವಿರಾ? ಎಲ್ಲಾ ದತ್ತಾಂಶ ಕಳೆದುಹೋಗುತ್ತದೆ."
+  },
+  "currency": "€"
+}

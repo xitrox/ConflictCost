@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "संघर्ष लागत कैलकुलेटर"
+  },
+  "header": {
+    "title": "संघर्ष लागत कैलकुलेटर",
+    "subtitle": "कार्यस्थल संघर्ष की वास्तविक लागत की गणना करें"
+  },
+  "section1": {
+    "title": "1. टीम और संघर्ष पैरामीटर",
+    "teamMembers": "प्रभावित टीम सदस्य",
+    "teamMembersHint": "शामिल लोगों की संख्या",
+    "avgHourlyRate": "औसत घंटा दर (€)",
+    "avgHourlyRateHint": "औसत प्रति घंटा वेतन",
+    "conflictDuration": "संघर्ष की अवधि (दिन)",
+    "conflictDurationHint": "संघर्ष कितने समय तक चला",
+    "efficiencyLoss": "उत्पादकता हानि (%)",
+    "efficiencyLossHint": "कथित दक्षता में कमी",
+    "resolutionHours": "समाधान समय (घंटे)",
+    "resolutionHoursHint": "समाधान में निवेश किया गया समय"
+  },
+  "section2": {
+    "title": "2. बाहरी समर्थन",
+    "consultantHours": "सलाहकार/मध्यस्थ घंटे",
+    "consultantRate": "सलाहकार घंटा दर (€)",
+    "legalHours": "कानूनी सहायता घंटे",
+    "legalRate": "कानूनी घंटा दर (€)"
+  },
+  "section3": {
+    "title": "3. दीर्घकालिक प्रभाव",
+    "employeesLeft": "जो कर्मचारी चले गए",
+    "employeesLeftHint": "इस संघर्ष के कारण",
+    "replacementCost": "प्रति व्यक्ति प्रतिस्थापन लागत (€)",
+    "replacementCostHint": "भर्ती और प्रशिक्षण",
+    "reputationDamage": "अनुमानित प्रतिष्ठा क्षति (€)",
+    "reputationDamageHint": "व्यवसाय की हानि, छवि क्षति"
+  },
+  "section4": {
+    "title": "4. लागत सारांश",
+    "productivityCosts": "उत्पादकता हानि लागत",
+    "resolutionCosts": "समाधान समय लागत",
+    "consultantCosts": "सलाहकार लागत",
+    "legalCosts": "कानूनी लागत",
+    "turnoverCosts": "कर्मचारी कारोबार लागत",
+    "reputationCosts": "प्रतिष्ठा क्षति",
+    "totalCosts": "कुल अनुमानित लागत"
+  },
+  "actions": {
+    "reset": "रीसेट करें",
+    "export": "JSON के रूप में निर्यात करें"
+  },
+  "footer": {
+    "references": "स्रोत और संदर्भ"
+  },
+  "messages": {
+    "confirmReset": "क्या आप वाकई फॉर्म को रीसेट करना चाहते हैं? सभी डेटा खो जाएगा।"
+  },
+  "currency": "€"
+}

@@ -1,0 +1,59 @@
+{
+  "page": {
+    "title": "Calculadora de Costos de Conflictos"
+  },
+  "header": {
+    "title": "Calculadora de Costos de Conflictos",
+    "subtitle": "Calcule el costo real de los conflictos laborales"
+  },
+  "section1": {
+    "title": "1. Parámetros del Equipo y Conflicto",
+    "teamMembers": "Miembros del Equipo Afectados",
+    "teamMembersHint": "Número de personas involucradas",
+    "avgHourlyRate": "Tarifa Horaria Promedio (€)",
+    "avgHourlyRateHint": "Salario promedio por hora",
+    "conflictDuration": "Duración del Conflicto (Días)",
+    "conflictDurationHint": "Cuánto tiempo duró el conflicto",
+    "efficiencyLoss": "Pérdida de Productividad (%)",
+    "efficiencyLossHint": "Reducción de eficiencia percibida",
+    "resolutionHours": "Tiempo de Resolución (Horas)",
+    "resolutionHoursHint": "Tiempo invertido en resolver"
+  },
+  "section2": {
+    "title": "2. Soporte Externo",
+    "consultantHours": "Horas de Consultor/Mediador",
+    "consultantRate": "Tarifa Horaria del Consultor (€)",
+    "legalHours": "Horas de Apoyo Legal",
+    "legalRate": "Tarifa Horaria Legal (€)"
+  },
+  "section3": {
+    "title": "3. Impacto a Largo Plazo",
+    "employeesLeft": "Empleados que Se Fueron",
+    "employeesLeftHint": "Debido a este conflicto",
+    "replacementCost": "Costo de Reemplazo por Persona (€)",
+    "replacementCostHint": "Reclutamiento e incorporación",
+    "reputationDamage": "Daño a la Reputación Estimado (€)",
+    "reputationDamageHint": "Pérdida de negocios, daño a la imagen"
+  },
+  "section4": {
+    "title": "4. Resumen de Costos",
+    "productivityCosts": "Costos de Pérdida de Productividad",
+    "resolutionCosts": "Costos de Tiempo de Resolución",
+    "consultantCosts": "Costos de Consultor",
+    "legalCosts": "Costos Legales",
+    "turnoverCosts": "Costos de Rotación de Empleados",
+    "reputationCosts": "Daño a la Reputación",
+    "totalCosts": "Costos Estimados Totales"
+  },
+  "actions": {
+    "reset": "Restablecer",
+    "export": "Exportar como JSON"
+  },
+  "footer": {
+    "references": "Fuentes y Referencias"
+  },
+  "messages": {
+    "confirmReset": "¿Está seguro de que desea restablecer el formulario? Se perderán todos los datos."
+  },
+  "currency": "€"
+}
